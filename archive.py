@@ -2,7 +2,9 @@
 import zipfile
 import colorama
 from colorama import Fore
+import os
 
+os.system('clear') 
 g = input (Fore.GREEN + "Введите путь к словарю для подбора паролей : ")
 print("")
 b = input ("Введите путь к архиву : ")
